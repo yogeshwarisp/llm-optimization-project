@@ -1,0 +1,7 @@
+# llama-cpp-python is installed separately (see README, Step 3) because Windows needs a prebuilt wheel
+psutil>=5.9
+pandas>=2.0
+matplotlib>=3.7
+streamlit>=1.30
+huggingface_hub>=0.20
+requests>=2.31

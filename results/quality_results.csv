@@ -1,0 +1,318 @@
+prompt_id,topic,prompt,config,answer,generated_tokens,total_time_s
+1,Artificial Intelligence,Explain what Artificial Intelligence is in simple terms and give three real-world examples.,FP16,"Artificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI systems use algorithms and statistical models to learn from data and make decisions or predictions without explicit programming.
+
+Here are three real-world examples of AI in action:
+
+1. **Virtual Assistants**: These are AI-powered software programs that can perform tasks such as answering questions, setting reminders, scheduling appointments, and providing information. Examples include Siri, Google Assistant, and Alexa.
+
+2. **Self-Driving Cars**: AI is used to enable self-driving cars to navigate roads safely. These cars use sensors, cameras, and AI algorithms to interpret their environment and make decisions about how to drive. Companies like Tesla, Waymo, and Uber are leading the development of self-driving technology.
+
+3. **Medical Diagnosis**: AI is being used to help doctors diagnose diseases more accurately and quickly. For example, AI algorithms can analyze medical images like X-rays and MRIs to detect abnormalities that might be missed by human doctors. This can help in early detection of diseases and improve patient outcomes.
+
+These examples illustrate how AI is transforming various industries and improving efficiency and accuracy in many tasks.",254,47.03
+2,Machine Learning,What is Machine Learning? Explain the difference between supervised and unsupervised learning with one example each.,FP16,"Machine Learning is a subset of artificial intelligence that involves the development of algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience. The goal is to enable the system to learn from data without being explicitly programmed.
+
+### Supervised Learning
+Supervised learning is a type of machine learning where the algorithm learns from labeled data. This means that the input data is paired with a corresponding output or label. The algorithm is trained to predict the output for new, unseen data based on the patterns it has learned from the labeled data.
+
+**Example: Spam Detection**
+Imagine you have a dataset of emails, where each email is labeled as either spam or not spam. The algorithm learns from this labeled data to classify new emails as spam or not spam. This is a classic example of supervised learning because the algorithm is trained on labeled data (emails with spam labels) to predict the label for new, unseen data (emails).
+
+### Unsupervised Learning
+Unsupervised learning is a type of machine learning where the algorithm learns from unlabeled data. This means that the input data does not have any corresponding output or label. The algorithm is trained to find patterns or structure in the data without any guidance on what the output should be.
+
+**Example: Clustering**
+Imagine you have a dataset of customer data, where each customer is represented by a set of features (e.g., age, income, location). The algorithm learns to group customers into clusters based on similarities in their features. This",300,50.85
+3,Python programming,"Explain the difference between a list and a tuple in Python, and when to use each.",FP16,"In Python, both lists and tuples are used to store collections of items. However, there are some key differences between the two:
+
+1. Mutability: Lists are mutable, meaning that you can change their contents after they are created. Tuples, on the other hand, are immutable, meaning that you cannot change their contents once they are created.
+
+2. Syntax: Lists are defined using square brackets [], while tuples are defined using parentheses ().
+
+3. Performance: Tuples are generally faster than lists because they are immutable, which means that they do not have to be checked for changes after they are created.
+
+When to use a list:
+
+1. When you need to store a collection of items that you may want to modify later.
+
+2. When you need to store a collection of items that you do not want to change once they are created.
+
+When to use a tuple:
+
+1. When you need to store a collection of items that you do not want to change once they are created.
+
+2. When you need to store a collection of items that you may want to modify later, but you want to ensure that the collection remains immutable.
+
+3. When you need to store a collection of items that you do not want to be accessed or modified by other parts of your program.",257,43.41
+4,Cloud computing,"What is cloud computing? Describe IaaS, PaaS and SaaS briefly.",FP16,"Cloud computing is a model of delivering computing resources and services over the internet. It allows users to access and use these resources and services from anywhere, at any time, without the need to own or manage the underlying infrastructure. Cloud computing is typically divided into three main categories: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+
+IaaS (Infrastructure as a Service) is a type of cloud computing where users can access and use virtualized computing resources, such as servers, storage, and networking, over the internet. These resources are managed and maintained by the cloud provider, and users can use them to build and run their own applications and services. IaaS is often used by businesses and organizations that need to scale their computing resources up or down as needed, or that want to reduce their own IT infrastructure costs.
+
+PaaS (Platform as a Service) is a type of cloud computing where users can access and use a platform that provides the necessary tools and services to build and run their own applications. This platform is managed and maintained by the cloud provider, and users can use it to develop, test, and deploy their own applications. PaaS is often used by businesses and organizations that want to focus on building and deploying their own applications, rather than managing their own infrastructure.
+
+SaaS (Software as a Service) is a type of cloud computing where users can access and use software applications over the internet. These applications are typically hosted by",300,50.83
+5,Database concepts,"Explain primary key, foreign key and normalisation in databases with a short example.",FP16,"Sure, I'd be happy to explain primary keys, foreign keys, and normalization in databases with a short example.
+
+### Primary Key
+A primary key is a unique identifier for a record in a database table. It ensures that each record in the table is distinct and can be used to uniquely identify a specific record. In other words, a primary key is a column or a combination of columns that uniquely identifies each row in a table.
+
+**Example:**
+Suppose we have a table called `Employees` with the following columns: `EmployeeID`, `FirstName`, `LastName`, `DepartmentID`, and `Salary`.
+
+- `EmployeeID` is the primary key because it uniquely identifies each employee.
+- `FirstName` and `LastName` are not primary keys because they can have duplicate values (e.g., John Smith and John Doe).
+- `DepartmentID` is a foreign key because it references another table (`Departments`).
+
+### Foreign Key
+A foreign key is a column or a combination of columns in a table that references the primary key of another table. It ensures referential integrity, meaning that the values in the foreign key column must match the values in the primary key column of the referenced table.
+
+**Example:**
+In the `Employees` table, `DepartmentID` is a foreign key that references the `DepartmentID` in the `Departments` table.
+
+- If an employee is assigned to a department, the `DepartmentID` in the `Employees` table must match",300,50.71
+6,Email writing,"Write a polite, professional email to my professor requesting a two-day extension for my project submission.",FP16,"Subject: Request for Two-Day Extension for Project Submission
+
+Dear Professor [Last Name],
+
+I hope this email finds you well. I am writing to request a two-day extension for my project submission, which is due on [current due date]. I understand that deadlines are important, but I have encountered some unforeseen circumstances that have prevented me from completing the project on time.
+
+I have been working diligently on the project and have made significant progress, but I have been unable to finish it within the original deadline. I apologize for any inconvenience this may cause and assure you that I will make every effort to complete the project as soon as possible.
+
+I have attached a copy of my project report for your review. I would appreciate it if you could provide me with a deadline extension of two days. I am confident that I can complete the project within this extended timeframe and will ensure that all necessary revisions and edits are made.
+
+Thank you for your understanding and consideration. I look forward to your response and hope to hear from you soon.
+
+Best regards,
+
+[Your Name]",211,36.59
+7,RAM vs ROM,"Compare RAM and ROM covering purpose, volatility, speed and examples.",FP16,"RAM (Random Access Memory) and ROM (Read-Only Memory) are both types of memory used in computers, but they serve different purposes and have different characteristics.
+
+Purpose:
+RAM is used to store data that is currently being used by the computer, while ROM is used to store data that is permanently stored in the computer's memory. RAM is volatile, meaning that it loses its contents when the computer is turned off, while ROM is non-volatile, meaning that its contents remain intact even when the computer is turned off.
+
+Volatility:
+RAM is volatile, meaning that it loses its contents when the computer is turned off. This means that any data stored in RAM will be lost when the computer is restarted. ROM, on the other hand, is non-volatile, meaning that its contents remain intact even when the computer is turned off. This means that any data stored in ROM will not be lost when the computer is restarted.
+
+Speed:
+RAM is faster than ROM. RAM is used to store data that is currently being used by the computer, so it is accessed much more quickly than data stored in ROM. ROM, on the other hand, is used to store data that is permanently stored in the computer's memory, so it is accessed much more slowly than data stored in RAM.
+
+Examples:
+RAM is used to store data that is currently being used by the computer, such as the operating system, applications, and data being processed by the computer. ROM is used to store data that is permanently stored",300,50.4
+8,Neural networks,"Explain how a neural network learns, covering neurons, weights, activation functions and backpropagation.",FP16,"A neural network is a type of machine learning model that is designed to recognize patterns in data. It consists of layers of interconnected nodes, called neurons, which process information and pass it on to the next layer. The network is trained to recognize patterns in the data by adjusting the weights of the connections between neurons.
+
+Neurons are the basic units of a neural network. Each neuron receives input from other neurons, processes it using an activation function, and passes the result on to the next layer. The activation function determines how much the neuron's output will affect the next layer's output. Common activation functions include the sigmoid, tanh, and ReLU functions.
+
+Weights are the connections between neurons. They are adjusted during the training process to improve the network's performance. The weights are adjusted using a technique called backpropagation, which involves calculating the error between the network's output and the desired output, and then adjusting the weights to minimize this error.
+
+Backpropagation works by calculating the error at the output layer, then propagating this error backwards through the network, adjusting the weights at each layer until the error is minimized. This process is repeated many times during the training process, with the weights being adjusted slightly each time to improve the network's performance.
+
+Overall, a neural network learns by adjusting the weights of its connections between neurons to minimize the error between its output and the desired output. This process is repeated many times during the training process, with the weights being adjusted slightly each time to improve the network",300,51.29
+9,Python coding,"Write a Python function that checks whether a string is a palindrome, ignoring case and spaces, and include two test examples.",FP16,"Certainly! A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization.
+
+Here's a Python function that checks if a string is a palindrome, ignoring case and spaces:
+
+```python
+def is_palindrome(s):
+    """"""
+    Check if the given string is a palindrome, ignoring case and spaces.
+    
+    Args:
+    s (str): The string to check.
+    
+    Returns:
+    bool: True if the string is a palindrome, False otherwise.
+    """"""
+    # Remove spaces and convert to lowercase
+    cleaned_string = ''.join(char.lower() for char in s if char.isalnum())
+    
+    # Check if the cleaned string is equal to its reverse
+    return cleaned_string == cleaned_string[::-1]
+
+# Test examples
+print(is_palindrome(""A man, a plan, a canal, Panama""))  # True
+print(is_palindrome(""No lemon, no melon""))  # True
+print(is_palindrome(""Hello, World!""))  # False
+```
+
+### Explanation:
+1. **Cleaning the String**: The function first removes all spaces and converts all characters to lowercase to ignore case and spaces.
+2. **Checking for Palindrome**: It then checks if the cleaned string is equal to its reverse. If it is, the string is a palindrome.
+
+### Test Examples:
+- `""A man, a plan, a canal, Panama""` is a palindrome.
+",300,50.55
+10,Cybersecurity,What is phishing? List five practical steps a student can take to stay safe online.,FP16,"Phishing is a type of cyber attack where an attacker tricks a user into providing sensitive information, such as login credentials or credit card details, by posing as a trustworthy entity. Phishing attacks can be carried out through email, text messages, or social media, and can be used to steal personal information, financial data, or even to install malware on a victim's device.
+
+Here are five practical steps a student can take to stay safe online:
+
+1. **Be cautious of unsolicited emails and messages**: Phishing emails often appear to come from a trusted source, such as a bank or a school. Be wary of emails that ask for personal information or request you to click on a link to verify your account. Always verify the sender's email address and the legitimacy of the request.
+
+2. **Use strong, unique passwords**: Use a different password for each of your online accounts. This makes it harder for an attacker to compromise your accounts if one is compromised. Consider using a password manager to generate and store strong passwords.
+
+3. **Enable two-factor authentication (2FA)**: Two-factor authentication adds an extra layer of security to your accounts by requiring a second form of verification, such as a code sent to your phone or a biometric scan. This makes it much harder for an attacker to gain access to your accounts even if they have your password.
+
+4. **Be cautious of suspicious links and attachments**: Phishing emails often contain links or attachments that appear to be from a trusted source,",300,50.43
+1,Artificial Intelligence,Explain what Artificial Intelligence is in simple terms and give three real-world examples.,Q4,"Artificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent machines that can think, learn, and adapt like humans do. It involves the development of algorithms and models that allow computers to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
+
+Here are three real-world examples of AI:
+
+1. **Virtual Assistants**: These are software programs that can perform tasks on behalf of users, such as setting reminders, sending emails, and controlling smart home devices. Examples include Siri, Google Assistant, and Amazon Alexa.
+
+2. **Self-Driving Cars**: These are vehicles that use AI to navigate roads and make decisions about driving, such as avoiding obstacles and choosing the best route. Companies like Tesla, Waymo, and Uber are developing self-driving cars that use AI to make these decisions.
+
+3. **Medical Diagnosis**: AI is being used to help doctors diagnose diseases more accurately and quickly. For example, AI algorithms can analyze medical images like X-rays and MRIs to detect abnormalities that might indicate a disease. This can help doctors make more informed decisions about patient care.",230,12.84
+2,Machine Learning,What is Machine Learning? Explain the difference between supervised and unsupervised learning with one example each.,Q4,"Machine Learning is a subset of artificial intelligence that involves the development of algorithms and statistical models that allow computer systems to improve their performance at a specific task through experience. The goal is to enable the system to learn from data and make decisions or predictions without being explicitly programmed to do so.
+
+### Supervised Learning
+
+Supervised learning is a type of machine learning where the algorithm learns from labeled data. This means that the system is provided with input data along with the correct output or label. The algorithm uses this labeled data to learn patterns and relationships that can be used to make predictions or decisions on new, unseen data.
+
+**Example:** Image Classification
+- **Suppose** you have a dataset of images labeled with the corresponding objects they contain (e.g., ""cat"", ""dog"", ""tree"").
+- **The algorithm** learns to recognize these objects based on the labeled images.
+- **New images** are then classified into one of the categories based on the patterns learned from the labeled data.
+
+### Unsupervised Learning
+
+Unsupervised learning is a type of machine learning where the algorithm learns from unlabeled data. This means that the system is provided with input data but no corresponding output or label. The algorithm uses this data to find patterns and relationships within the data.
+
+**Example:** Clustering
+- **Suppose** you have a dataset of customer data (e.g., age, income, spending habits).
+- **The algorithm** groups customers into clusters based on similarities in their data",300,16.76
+3,Python programming,"Explain the difference between a list and a tuple in Python, and when to use each.",Q4,"In Python, both lists and tuples are used to store collections of items. However, there are some key differences between them:
+
+1. Mutability:
+   - Lists are mutable, meaning you can change their contents after they are created.
+   - Tuples are immutable, meaning you cannot change their contents after they are created.
+
+2. Syntax:
+   - Lists are defined using square brackets [ ].
+   - Tuples are defined using parentheses ( ).
+
+3. Usage:
+   - Lists are typically used when you need to modify the contents of the collection.
+   - Tuples are typically used when you need to store a collection of items without the need to modify it.
+
+4. Performance:
+   - Lists are generally faster to create and access than tuples.
+   - Tuples are generally faster to create and access than lists.
+
+When to use each:
+
+- Use a list when you need to modify the contents of the collection.
+- Use a tuple when you need to store a collection of items without the need to modify it.
+- Use a list when you need to store a collection of items that you may need to modify later.
+- Use a tuple when you need to store a collection of items that you do not need to modify later.
+- Use a list when you need to store a collection of items that you may need to add or remove from later.
+- Use a tuple when you need to store a collection of items that you do not need to add or remove from later.
+- Use a",300,16.36
+4,Cloud computing,"What is cloud computing? Describe IaaS, PaaS and SaaS briefly.",Q4,"Cloud computing is a model of delivering computing resources and services over the internet. It allows users to access and use these resources and services from anywhere, at any time, without the need to own or manage the underlying infrastructure. Cloud computing is typically divided into three main categories: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+
+IaaS (Infrastructure as a Service) is a type of cloud computing where users can access and use virtualized computing resources such as servers, storage, and networking over the internet. This allows users to focus on their applications and services, while the cloud provider takes care of the underlying infrastructure. IaaS providers typically offer a range of services, including virtual servers, storage, and networking, as well as tools for managing and monitoring these resources.
+
+PaaS (Platform as a Service) is a type of cloud computing where users can access and use a platform that provides the necessary tools and services to develop, deploy, and manage applications. This allows users to focus on their applications and services, while the cloud provider takes care of the underlying infrastructure and platform. PaaS providers typically offer a range of services, including development tools, deployment tools, and management tools, as well as tools for monitoring and managing the applications.
+
+SaaS (Software as a Service) is a type of cloud computing where users can access and use software applications over the internet. This allows users to focus on their business processes and operations, while",300,16.39
+5,Database concepts,"Explain primary key, foreign key and normalisation in databases with a short example.",Q4,"Sure, I'd be happy to explain primary keys, foreign keys, and normalization in databases with a short example.
+
+### Primary Key
+A primary key is a unique identifier for each record in a table. It ensures that each record is unique and helps in maintaining data integrity. In a database, a primary key is typically a column or a combination of columns that uniquely identifies each record.
+
+**Example:**
+Let's say we have a table called `Employees` with the following columns: `EmployeeID`, `FirstName`, `LastName`, `Department`, and `Salary`.
+
+- `EmployeeID` is the primary key because each employee has a unique `EmployeeID`.
+- `FirstName` and `LastName` are not primary keys because they can have duplicate values (e.g., John Smith and John Smith Jr.).
+- `Department` and `Salary` are not primary keys because they can have duplicate values (e.g., both John Smith and Jane Doe can be in the same department and have the same salary).
+
+### Foreign Key
+A foreign key is a column or a combination of columns in a table that references the primary key of another table. It establishes a relationship between two tables. A foreign key ensures that the data in the referenced table is consistent with the data in the referencing table.
+
+**Example:**
+Let's say we have two tables: `Employees` and `Departments`.
+
+- `EmployeeID` is the primary key in the `Employees` table.
+- `DepartmentID`",300,16.75
+6,Email writing,"Write a polite, professional email to my professor requesting a two-day extension for my project submission.",Q4,"Subject: Request for Two-Day Extension for Project Submission
+
+Dear Professor [Last Name],
+
+I hope this email finds you well. I am writing to request a two-day extension for the submission of my project, which is due on [current date]. I understand that deadlines are important, but I have encountered unforeseen circumstances that have prevented me from completing the project on time.
+
+I have been working diligently on the project and have made significant progress, but I have not been able to finish it in the allotted time. I apologize for any inconvenience this may cause and assure you that I will do everything in my power to ensure that the project is completed on time.
+
+I have attached a copy of my progress report and a detailed explanation of the challenges I have faced. I would appreciate it if you could consider this request and extend the deadline for the project submission.
+
+Thank you for your understanding and support. I look forward to your response.
+
+Best regards,
+
+[Your Name]",192,10.59
+7,RAM vs ROM,"Compare RAM and ROM covering purpose, volatility, speed and examples.",Q4,"RAM (Random Access Memory) and ROM (Read-Only Memory) are both types of memory used in computers, but they serve different purposes and have different characteristics.
+
+### Purpose:
+- **RAM** is used to store data that is currently being used by the computer's CPU (Central Processing Unit). It is volatile, meaning that the data stored in RAM is lost when the computer is turned off.
+- **ROM** is used to store data that is permanently stored in the computer's memory. It is non-volatile, meaning that the data stored in ROM is not lost when the computer is turned off.
+
+### Volatility:
+- **RAM** is volatile, meaning that the data stored in RAM is lost when the computer is turned off.
+- **ROM** is non-volatile, meaning that the data stored in ROM is not lost when the computer is turned off.
+
+### Speed:
+- **RAM** is faster than **ROM** because it can access data much more quickly. When the CPU needs to access data, it can read it directly from RAM, which is much faster than accessing data from ROM.
+- **ROM** is slower than **RAM** because it has to read data from a separate storage device (like a hard drive or SSD) before it can be accessed by the CPU.
+
+### Examples:
+- **RAM** is used to store data that is currently being used by the CPU. For example, when you are typing on a computer, the data you are typing is stored",300,16.53
+8,Neural networks,"Explain how a neural network learns, covering neurons, weights, activation functions and backpropagation.",Q4,"A neural network is a type of artificial intelligence model that is designed to learn from data. It consists of layers of interconnected nodes called neurons, which are organized in a specific way to perform a specific task. The network is trained to recognize patterns in the data and make predictions based on those patterns.
+
+Neurons are the basic units of a neural network. Each neuron receives input from other neurons, processes that input, and produces an output. The input to a neuron is a weighted sum of the inputs from other neurons. The weights are the values that are multiplied by the inputs before they are added together. The output of a neuron is determined by the activation function, which is a mathematical function that determines whether the neuron will be activated or not based on the weighted sum of its inputs.
+
+The weights in a neural network are adjusted during the training process to improve the accuracy of the network's predictions. The process of adjusting the weights is called backpropagation. Backpropagation involves calculating the error between the network's predictions and the actual data, and then adjusting the weights in the direction that will reduce that error. This process is repeated many times until the network's predictions are as accurate as possible.
+
+In summary, a neural network learns by adjusting the weights of its neurons during the training process. The weights are adjusted based on the error between the network's predictions and the actual data, and the process is repeated many times until the network's predictions are as accurate as possible.",293,17.5
+9,Python coding,"Write a Python function that checks whether a string is a palindrome, ignoring case and spaces, and include two test examples.",Q4,"Certainly! Below is a Python function that checks whether a string is a palindrome, ignoring case and spaces. The function also includes two test examples:
+
+```python
+def is_palindrome(s):
+    """"""
+    Check if the given string is a palindrome, ignoring case and spaces.
+    
+    Args:
+    s (str): The string to check.
+    
+    Returns:
+    bool: True if the string is a palindrome, False otherwise.
+    """"""
+    # Remove non-alphanumeric characters and convert to lowercase
+    cleaned_s = ''.join(char.lower() for char in s if char.isalnum())
+    
+    # Check if the cleaned string is equal to its reverse
+    return cleaned_s == cleaned_s[::-1]
+
+# Test examples
+print(is_palindrome(""A man, a plan, a canal: Panama""))  # True
+print(is_palindrome(""race a car""))  # False
+print(is_palindrome(""No 'x' in Nixon""))  # True
+print(is_palindrome(""Was it a car or a cat I saw?""))  # True
+print(is_palindrome(""No 'x' in Nixon""))  # True
+```
+
+### Explanation:
+1. **Cleaning the String**: The function first removes any non-alphanumeric characters from the string and converts it to lowercase. This ensures that the check is case-insensitive and ignores spaces.
+2. **Checking for Palindrome**: It then checks if the cleaned string is equal to its reverse. If it is,",300,17.14
+10,Cybersecurity,What is phishing? List five practical steps a student can take to stay safe online.,Q4,"Phishing is a type of cyber attack where an attacker tries to trick individuals into providing sensitive information such as passwords, credit card numbers, or other personal data. The attacker typically uses fake emails, websites, or phone calls to trick the victim into revealing this information.
+
+Here are five practical steps a student can take to stay safe online:
+
+1. **Be cautious of unsolicited emails**: If an email asks for personal information or requests you to click on a link, it's likely a phishing attempt. Always verify the sender's email address and the legitimacy of the request.
+
+2. **Use strong, unique passwords**: Use different passwords for different accounts and make sure they are strong and unique. This makes it harder for attackers to access your accounts if they manage to get your password.
+
+3. **Enable two-factor authentication**: Two-factor authentication adds an extra layer of security by requiring a second form of identification in addition to your password. This makes it much harder for attackers to gain access to your accounts.
+
+4. **Be wary of suspicious websites**: Only visit websites that are secure and reputable. Look for the padlock icon in the browser's address bar, which indicates that the website is secure. Also, check the URL to ensure it matches the website you're trying to visit.
+
+5. **Report phishing attempts**: If you suspect that you have fallen victim to a phishing attempt, report it to the relevant authorities or the website's support team. This can help them identify and prevent future attacks.
+
+By",300,16.6

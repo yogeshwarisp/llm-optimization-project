@@ -1,0 +1,12 @@
+[
+ {"id": 1, "topic": "Artificial Intelligence", "prompt": "Explain what Artificial Intelligence is in simple terms and give three real-world examples."},
+ {"id": 2, "topic": "Machine Learning", "prompt": "What is Machine Learning? Explain the difference between supervised and unsupervised learning with one example each."},
+ {"id": 3, "topic": "Python programming", "prompt": "Explain the difference between a list and a tuple in Python, and when to use each."},
+ {"id": 4, "topic": "Cloud computing", "prompt": "What is cloud computing? Describe IaaS, PaaS and SaaS briefly."},
+ {"id": 5, "topic": "Database concepts", "prompt": "Explain primary key, foreign key and normalisation in databases with a short example."},
+ {"id": 6, "topic": "Email writing", "prompt": "Write a polite, professional email to my professor requesting a two-day extension for my project submission."},
+ {"id": 7, "topic": "RAM vs ROM", "prompt": "Compare RAM and ROM covering purpose, volatility, speed and examples."},
+ {"id": 8, "topic": "Neural networks", "prompt": "Explain how a neural network learns, covering neurons, weights, activation functions and backpropagation."},
+ {"id": 9, "topic": "Python coding", "prompt": "Write a Python function that checks whether a string is a palindrome, ignoring case and spaces, and include two test examples."},
+ {"id": 10, "topic": "Cybersecurity", "prompt": "What is phishing? List five practical steps a student can take to stay safe online."}
+]

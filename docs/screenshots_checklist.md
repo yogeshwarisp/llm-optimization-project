@@ -1,0 +1,15 @@
+# Screenshots checklist
+- [ ] VS Code with the project folder tree
+- [ ] Terminal: venv activated, packages installed
+- [ ] `models/` folder showing both .gguf files and sizes
+- [ ] Benchmark running in the terminal and its final summary
+- [ ] `results/benchmark_results.csv` opened
+- [ ] Dashboard: Performance tab (all charts)
+- [ ] Dashboard: Quality tab with side-by-side answers and scores
+- [ ] `results/quality_results.csv` opened
+- [ ] Dashboard: KV cache and Quantisation tabs
+- [ ] Dashboard: 20-user plan tab
+- [ ] `concurrent_server.py plan` output
+- [ ] Concurrency run output (clearly labelled ACTUAL or SIMULATED)
+- [ ] Hugging Face model page showing the licence
+- [ ] `charts/` folder with generated PNGs
